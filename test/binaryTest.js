@@ -1,8 +1,9 @@
-'use strict'
 
-
-var expect = require('expect');
-var searchBinary = require('../app/binary.js');
+'use strict';
+var binarySearch = require ('../app/binary.js')
+//var chai = require ('chai')
+var expect = require ('expect');
+binarySearch();
 
 describe('Binary Search to traverse an ordered list, effectively', function() {
   describe('Populate the arrays with valid content', function() {
@@ -105,6 +106,7 @@ describe('Binary Search to traverse an ordered list, effectively', function() {
 
   });
 });
+
 
 /*
 * Block the indexOf Array function
